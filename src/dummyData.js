@@ -48,3 +48,96 @@ export const userData = [
     "Active User": 4490,
   },
 ];
+
+export const userRows = [
+  {
+    id: 1,
+    username: "Sahil Raj",
+    avatar:
+      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    email: "sahil@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 2,
+    username: "Sahil Raj",
+    avatar:
+      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    email: "sahil@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 3,
+    username: "Sahil Raj",
+    avatar:
+      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    email: "sahil@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 4,
+    username: "Sahil Raj",
+    avatar:
+      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    email: "sahil@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 5,
+    username: "Sahil Raj",
+    avatar:
+      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    email: "sahil@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 6,
+    username: "Sahil Raj",
+    avatar:
+      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    email: "sahil@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 7,
+    username: "Sahil Raj",
+    avatar:
+      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    email: "sahil@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 8,
+    username: "Sahil Raj",
+    avatar:
+      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    email: "sahil@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 9,
+    username: "Sahil Raj",
+    avatar:
+      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    email: "sahil@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 10,
+    username: "Sahil Raj",
+    avatar:
+      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    email: "sahil@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+];
