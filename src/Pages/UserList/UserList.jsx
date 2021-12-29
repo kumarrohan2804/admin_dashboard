@@ -7,6 +7,11 @@ import { Link } from "react-router-dom";
 
 const UserList = () => {
   const [data, setData] = useState(userRows);
+
+  const handleDelete = (id) => {
+    setData(data.filter((item) => item.id !== id));
+  };
+
   const columns = [
     { field: "id", headerName: "ID", width: 90 },
     {
@@ -49,7 +54,10 @@ const UserList = () => {
             <Link to={"/user/" + params.row.id}>
               <button className="userListEdit">Edit</button>
             </Link>
-            <DeleteOutline className="userListDelete" />
+            <DeleteOutline
+              className="userListDelete"
+              onClick={() => handleDelete(params.row.id)}
+            />
           </>
         );
       },
@@ -61,7 +69,7 @@ const UserList = () => {
       <DataGrid
         rows={data}
         columns={columns}
-        pageSize={5}
+        pageSize={8}
         checkboxSelection
         disableSelectionOnClick
       />
