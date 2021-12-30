@@ -45,7 +45,7 @@ const ProductList = () => {
       width: 150,
       renderCell: (params) => {
         return (
-          <div className="productList">
+          <>
             <Link to={"/product/" + params.row.id}>
               <button className="productListEdit">Edit</button>
             </Link>
@@ -53,7 +53,7 @@ const ProductList = () => {
               className="productListDelete"
               onClick={() => handleDelete(params.row.id)}
             />
-          </div>
+          </>
         );
       },
     },
